@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api/nasa'; // Adjust if your backend URL changes
+//const API_URL = 'http://localhost:5001/api/nasa'; // Adjust if your backend URL changes
+const API_BASE_URL = "https://nasa-data-visualization-backend.onrender.com";
 
 // Astronomy Picture of the Day (APOD)
 export const getApod = async (date) => {
